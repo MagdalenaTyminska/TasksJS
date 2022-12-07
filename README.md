@@ -1,1 +1,1 @@
-# goit-js-hw-06
+https://magdabonk.github.io/goit-js-hw-06/
