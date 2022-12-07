@@ -1,6 +1,4 @@
-const form = document.querySelector("form.login-form");
-
-form.addEventListener("submit", handleLogin);
+const form = document.querySelector(".login-form");
 
 function handleLogin(event) {
   event.preventDefault();
@@ -12,7 +10,9 @@ function handleLogin(event) {
     return alert("Uzupełnij wszystkie pola formularza!");
   }
 
-  console.log(`Email: ${email.value}, Password: ${password.value}`);
-
+  const userData = { email: email.value, password: password.value };
+  console.log(userData);
   event.currentTarget.reset();
 }
+
+form.addEventListener("submit", handleLogin);
