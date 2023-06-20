@@ -1,11 +1,20 @@
 const nameInput = document.querySelector("#name-input");
 const nameOutput = document.querySelector("#name-output");
 
-const update = (e) => {
-  nameOutput.innerHTML = e.target.value;
-  if (!e.target.value) {
+nameInput.addEventListener("input", (event) => {
+  nameOutput.textContent = event.currentTarget.value;
+  if (!event.currentTarget.value) {
     nameOutput.innerHTML = "Anonymous";
   }
-};
+});
 
-nameInput.addEventListener("input", update);
+// lub
+
+// const update = (event) => {
+//   nameOutput.innerHTML = event.target.value;
+//   if (!event.target.value) {
+//     nameOutput.innerHTML = "Anonymous";
+//   }
+// };
+
+// nameInput.addEventListener("input", update);
