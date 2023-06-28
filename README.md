@@ -1,1 +1,1 @@
-https://magdabonk.github.io/goit-js-hw-06/
+Tasks: Gallery, Counter, Greeting, Changing the font size, Form, Color change, Creating and destroying elements
