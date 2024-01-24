@@ -6,5 +6,4 @@ Project is created with:
 * HTML 5
 * SASS / CSS3
 * JavaScript
-* API Rest
 
